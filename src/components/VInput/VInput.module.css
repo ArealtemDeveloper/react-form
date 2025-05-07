@@ -1,0 +1,116 @@
+.container {
+    width: 100%;
+}
+
+/* Инппуты */
+.inputWrapper {
+    position: relative;
+}
+
+.input {
+    border: none;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+
+.input.xs {
+    padding: 3px;
+}
+
+.input.sm {
+    padding: 6px;
+}
+
+.input.md {
+    padding: 10px;
+}
+
+.input.lg {
+    padding: 14px;
+}
+
+.input._icon {
+    padding-left: 20px;
+}
+
+.input.rounded-xs {
+    border-radius: 5px;
+}
+
+.input.rounded-sm {
+    border-radius: 10px;
+}
+
+.input.rounded-md {
+    border-radius: 20px;
+}
+
+.input.rounded-lg {
+    border-radius: 30px;
+}
+
+.input.error {
+    border: 1px solid red;
+}
+
+.input.error::placeholder {
+    color: red;
+}
+
+.required {
+    margin-left: 5px;
+    color: red;
+}
+
+/* Labels */
+
+.labelsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 5px;
+}
+
+.labelsContainer.xs {
+    font-size: 10px;
+}
+
+.labelsContainer.sm {
+    font-size: 12px;
+}
+
+.labelsContainer.md {
+    font-size: 14px;
+}
+
+.labelsContainer.lg {
+    font-size: 16px;
+}
+
+.label {
+    margin: 0;
+    font-weight: 500;
+}
+
+.description {
+    font-size: 12px;
+    color: gray;
+}
+
+.error {
+    font-size: 12px;
+    color: red;
+}
+
+.icon {
+    position: absolute;
+    left: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: grey;
+}
